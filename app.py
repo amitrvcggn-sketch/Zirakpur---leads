@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
+app = Flask(_ _name_ _)
 
 # Health check ke liye
 @app.route('/')
@@ -21,5 +21,5 @@ def webhook():
     print("Lead received:", data)  # Logs me dikhega
     return 'OK', 200
 
-if__name__ == '__main__':
+if _ _name_ _ == '_ _main_ _':
     app.run()
