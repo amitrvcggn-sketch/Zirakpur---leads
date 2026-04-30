@@ -20,7 +20,7 @@ def webhook():
     print("Lead received:", data)  # Logs me dikhega
     return 'OK', 200
 
-if _name_ == '_main_':
+if _ _name_ _ == '_main_':
     app.run()
 
 app = Flask(_name_)
